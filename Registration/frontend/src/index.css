@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .header{
@@ -15,6 +16,9 @@
     font-size: 3rem;
 }
 
+.registration{
+    /* background-color: #e0f7fa; */
+}
 .registration-form {
     max-width: 400px;
     margin: 0 auto;
@@ -68,7 +72,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
     background-color: #e0f7fa;
   }
   
