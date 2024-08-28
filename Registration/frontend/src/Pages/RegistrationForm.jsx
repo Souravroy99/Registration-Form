@@ -19,6 +19,9 @@ function RegistrationForm() {
     }));
   };
 
+  // const url = `http://localhost:8001` ;
+  const url = `https://registration-form-tcr7.onrender.com` ;
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -33,7 +36,7 @@ function RegistrationForm() {
     }
 
     try {
-      const response = await fetch(`http://localhost:8001/registration/form`, {
+      const response = await fetch(`${url}/registration/form`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

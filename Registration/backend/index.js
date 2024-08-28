@@ -9,7 +9,8 @@ const cors = require("cors");
 const app = express();
 
 const corsOptions = {
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://registration-form-1-dil4.onrender.com",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
 };
