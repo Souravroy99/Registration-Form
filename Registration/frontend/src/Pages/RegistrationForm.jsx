@@ -39,7 +39,7 @@ function RegistrationForm() {
         body: JSON.stringify(form),
       });
 
-      const data = await response.json();
+      // const data = await response.json() ;
 
       if (response.ok) {
         navigate('/success');
